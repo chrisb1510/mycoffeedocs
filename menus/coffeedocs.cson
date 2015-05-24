@@ -1,0 +1,17 @@
+'menu': [
+  {
+    label: 'Packages'
+    submenu: [
+      label: 'CoffeeDocs'
+      submenu: [
+        label: 'Generate'
+        command: 'coffeedocs:generate'
+      ]
+    ]
+  }
+],
+'context-menu':
+  'atom-text-editor': [
+      label: 'Generate CoffeeDocs'
+      command: 'coffeedocs:generate'
+  ]
